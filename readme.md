@@ -20,8 +20,8 @@ class test {
         Assert.assertEquals(5 * 4 * 6 * 7, count);
 
         for (int i = 0; i < count; i++) {
-            List<Character> row = cs.get(i);
-            System.out.println(join(row));
+            List<Character> line = cs.get(i);
+            System.out.println(join(line));
         }
     }
 
