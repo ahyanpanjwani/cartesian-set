@@ -17,7 +17,7 @@ public class CartesianSet<T> {
 
     public CartesianSet(T[][] source) {
         this.source = source;
-        int total = 1;
+        long total = 1;
         for (T[] array : source) {
             total *= array.length;
         }
@@ -32,10 +32,10 @@ public class CartesianSet<T> {
         if (index < 0 || count <= index) { return null; }
         List<T> result = new ArrayList<T>(this.source.length);
 
-        int weight = 1;
+        long weight = 1;
         for (T[] row : this.source) {
-            int times = index / weight;
-            int column = times % row.length;
+            long times = index / weight;
+            int column = (int)(times % row.length);
             result.add(row[column]);
             weight *= row.length;
         }
