@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * cartesian
  *
- * @author ruiqi.zss
+ * @author ruiqi.zss@alibaba-inc.com
  * @date 2019/3/28
  */
 public class CartesianSet<T> {
