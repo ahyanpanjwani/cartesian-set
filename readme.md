@@ -1,6 +1,6 @@
 # cartesian-set
 
-A faster and simple cartesian product takes less member space.
+A faster and simple cartesian product takes less memory space.
 
 ## example
 
